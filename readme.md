@@ -23,9 +23,9 @@ Registers a new user by creating a record in the `users` table.
     "password": "examplePassword"
 }
 ```
-- **Response:**
+**Response:**
 
--- **Success(200):**  
+**a. Success(200):**  
 ```json
 {
     "status": "success",
@@ -33,7 +33,7 @@ Registers a new user by creating a record in the `users` table.
 }
 ```
 
--- **Success Response (200):**  
+**b. Success Response (200):**  
 ```json
 {
     "status": "success",
