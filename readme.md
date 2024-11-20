@@ -46,7 +46,7 @@ composer require firebase/php-jwt
 php -S localhost:8000 -t public
 ```  
 
-6 **Test the API**
+6. **Test the API**
     - Use tools like Thunder Client or Postman to test the API Endpoints.
 
 ## Endpoints
