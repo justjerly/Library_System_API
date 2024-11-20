@@ -23,29 +23,28 @@ Ensure the following are installed on your system:
 
 ### Installation Steps
 1. **Clone the Repository**
-        ```bash
-        git clone <repository_url>
-        cd <project_directory>
-        ```
+```bash
+git clone <repository_url>
+cd <project_directory>
+```
 
 2. **Install Slim Framework**
-        ```bash
-        composer require slim/slim:3.*
-        ```    
+```bash
+composer require slim/slim:3.*
+```    
         
 3. **Install Firebase JWT**
-        ```bash
-        composer require firebase/php-jwt
-            ```  
+```bash
+composer require firebase/php-jwt
+```  
 
 4. **Set Up the Application**
     - Navigate to the src folder and configure your application settings, such as database credentials and JWT secret keys.
 
 5. **Start the Development Server**
-        ```bash
-        php -S localhost:8000 -t public
-    
-            ```  
+```bash
+php -S localhost:8000 -t public
+```  
 
 6 **Test the API**
     - Use tools like Thunder Client or Postman to test the API Endpoints.
