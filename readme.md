@@ -5,6 +5,51 @@ The Library Management API is designed to handle user authentication, registrati
 
 ---
 
+## Technologies Used
+- **PHP**: Programming language for backend development.
+- **Slim Framework**: Lightweight PHP framework for building APIs.
+- **Firebase JWT**: Library for JSON Web Token (JWT) authentication.
+- **Composer**: Dependency management for PHP projects.
+
+---
+
+## Setup Instructions
+
+### Prerequisites
+Ensure the following are installed on your system:
+- PHP (version 7.4 or higher)
+- Composer
+- A web server (e.g., Apache or Nginx)
+
+### Installation Steps
+1. **Clone the Repository**
+        ```bash
+        git clone <repository_url>
+        cd <project_directory>
+        ```
+
+2. **Install Slim Framework**
+        ```bash
+        composer require slim/slim:3.*
+        ```    
+        
+3. **Install Firebase JWT**
+        ```bash
+        composer require firebase/php-jwt
+            ```  
+
+4. **Set Up the Application**
+    - Navigate to the src folder and configure your application settings, such as database credentials and JWT secret keys.
+
+5. **Start the Development Server**
+        ```bash
+        php -S localhost:8000 -t public
+    
+            ```  
+
+6 **Test the API**
+    - Use tools like Thunder Client or Postman to test the API Endpoints.
+
 ## Endpoints
 
 ---
